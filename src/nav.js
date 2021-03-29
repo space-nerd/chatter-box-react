@@ -11,7 +11,7 @@ function Nav() {
   return (
     <nav>
         <Link to="/">
-        <img src="icon.png"/>
+        <img src="icon.png" alt=""/>
         </Link>
         <ul className="nav-links">
             <Link to="/about" style={navStyle}>

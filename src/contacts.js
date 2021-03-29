@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import Admin from './admin';
 import { Link } from 'react-router-dom';
 
 function Contacts() {

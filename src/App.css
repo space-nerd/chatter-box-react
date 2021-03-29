@@ -14,7 +14,7 @@ nav {
 .nav-links {
   width: 50%;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   list-style: none;
 }
@@ -29,7 +29,6 @@ button {
   color: #ffffff;
   width: auto;
   height: 40px;
-  border-radius: 1rem;
   border: none;
   outline: none;
 }
