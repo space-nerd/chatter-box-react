@@ -1,0 +1,39 @@
+body {
+  background: #000000;
+  color: #ffffff;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+}
+
+.nav-links {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+img {
+  width: 15%;
+  height: 15%;
+}
+
+button {
+  background: #202020;
+  color: #ffffff;
+  width: auto;
+  height: 40px;
+  border-radius: 1rem;
+  border: none;
+  outline: none;
+}
+
+button:hover {
+  background: #101010;
+}
