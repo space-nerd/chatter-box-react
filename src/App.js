@@ -4,7 +4,7 @@ import Nav from './nav';
 import About from './about'
 import Contacts from './contacts';
 import Home from './home'
-import Admin from './admin';
+import Admin from './users/admin';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 function App() {
@@ -16,9 +16,9 @@ function App() {
       <Switch>
       <Route path="/" exact component={Home} />
       <Route path="/about" component={About} />
-      <Route path="/contacts" component={Contacts} />
       <Route path="/admin" component={Admin} />
       </Switch>
+      <Contacts></Contacts>
     </div>
     </Router>
   );

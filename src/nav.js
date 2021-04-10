@@ -17,8 +17,8 @@ function Nav() {
             <Link to="/about" style={navStyle}>
               <li><button>About</button></li>
             </Link>
-            <Link to="/contacts" style={navStyle}>
-              <li><button>Contacts</button></li>
+            <Link to="/upload" style={navStyle}>
+              <li><button>Upload</button></li>
             </Link>
         </ul>
     </nav>

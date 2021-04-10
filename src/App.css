@@ -2,6 +2,7 @@ body {
   background: #000000;
   color: #ffffff;
   text-align: center;
+  padding: none;
 }
 
 nav {
@@ -34,5 +35,40 @@ button {
 }
 
 button:hover {
+  background: #101010;
+}
+
+.contacts {
+  display: flex;
+  justify-content: center;
+  width: 100px;
+  text-align: center;
+  padding: none;
+}
+
+.people {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  background: #202020;
+  width: 100px;
+  padding: none;
+}
+
+.person {
+  width: 100px;
+  height: 35px;
+  padding: none;
+}
+
+.person img {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}
+
+.person:hover {
   background: #101010;
 }
