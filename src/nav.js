@@ -14,11 +14,11 @@ function Nav() {
         <img src="icon.png" alt=""/>
         </Link>
         <ul className="nav-links">
-            <Link to="/about" style={navStyle}>
-              <li><button>About</button></li>
+            <Link to="/upload">
+              <li><button className="uploadBtn">Upload</button></li>
             </Link>
-            <Link to="/upload" style={navStyle}>
-              <li><button>Upload</button></li>
+            <Link to="/about">
+              <li><button className="aboutBtn">About</button></li>
             </Link>
         </ul>
     </nav>
